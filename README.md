@@ -1,4 +1,5 @@
-![preview](https://user-images.githubusercontent.com/39247311/91757560-cf2f5f00-ebce-11ea-8c9b-8f8d6496770b.png)
+![preview](https://user-images.githubusercontent.com/39247311/210887953-19ce00d4-3123-471f-8afb-4e1f7a514bcd.png)
+
 # HF Patch for RoomGirl!
 A patch for [RoomGirl](http://www.illusion.jp/preview/roomgirl/) with all free updates, fan-made English translations and essential mods. It will allow you to load all character cards and scenes and give you countless gameplay improvements while still keeping the original, uncluttered and clean feel of the game.
 
