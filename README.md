@@ -24,7 +24,7 @@ Check the [Releases](https://github.com/ManlyMarco/RG-HF_Patch/releases) page fo
 You can see a list of all included plugins and links to their websites and authors [here](https://github.com/ManlyMarco/RG-HF_Patch/blob/master/Plugin%20Readme.md). You can see what content mods are included after installing the patch by running KKManager (installed to the game directory) and navigating to the zipmods tab.
 
 ## Discussion and help
-If you need any help, [check the wiki](https://wiki.anime-sharing.com/hgames/index.php?title=Room_Girl) or visit the [Illusion Soft discord server](https://discord.gg/illusionsoft) and ask in the #hs2-help channel. Asking in the #hs2-help channel instead of other places is the fastest way to get help, you can even search it for your issue to see if someone already answered it. There are also chat and card sharing channels on the server!
+If you need any help, [check the wiki](https://wiki.anime-sharing.com/hgames/index.php?title=Room_Girl) or visit the [Illusion Soft discord server](https://discord.gg/illusionsoft) and ask in the #rg-help channel. Asking in the #rg-help channel instead of other places is the fastest way to get help, you can even search it for your issue to see if someone already answered it. There are also chat and card sharing channels on the server!
 
 ## Important notes, please read
 - HF Patch does not contain the full game, paid expansions or any other pirated content. The full game needs to be already installed for the patch to work.
