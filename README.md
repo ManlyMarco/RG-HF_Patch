@@ -5,7 +5,7 @@ A patch for [RoomGirl](http://www.illusion.jp/preview/roomgirl/) with all free u
 
 All content is tested and fixed (or removed) as needed before each update. HF Patch can repair many common problems, try it if you have issues with your game or mod setup. By default, it cleans the game before applying new mods, providing a stable platform for further modding.
 
-HF Patch does not contain the full game, paid expansions or any other pirated content. You have to buy the game and expansions separately. You can buy the game [on DLsite](https://www.dlsite.com/pro/work/=/product_id/VJ015465.html) or [on DMM](https://dlsoft.dmm.co.jp/detail/illusion_0039/).
+HF Patch does not contain the full game, paid expansions or any other pirated content. You have to buy the game and expansions separately. You can buy the game [on DLsite](https://www.dlsite.com/pro/work/=/product_id/VJ015465.html) ([buy and download guide](https://youtu.be/gXhEcizjOLg)) or [on DMM](https://dlsoft.dmm.co.jp/detail/illusion_0039/) ([buy and download guide](https://youtu.be/SJ9OXedO3qI)).
 
 You can support development of HF Patch and many of the included plugins through my Patreon page: https://www.patreon.com/ManlyMarco
 
