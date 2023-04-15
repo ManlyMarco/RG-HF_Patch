@@ -1,10 +1,11 @@
-![preview](https://user-images.githubusercontent.com/39247311/91757560-cf2f5f00-ebce-11ea-8c9b-8f8d6496770b.png)
+![preview](https://user-images.githubusercontent.com/39247311/210887953-19ce00d4-3123-471f-8afb-4e1f7a514bcd.png)
+
 # HF Patch for RoomGirl!
 A patch for [RoomGirl](http://www.illusion.jp/preview/roomgirl/) with all free updates, fan-made English translations and essential mods. It will allow you to load all character cards and scenes and give you countless gameplay improvements while still keeping the original, uncluttered and clean feel of the game.
 
 All content is tested and fixed (or removed) as needed before each update. HF Patch can repair many common problems, try it if you have issues with your game or mod setup. By default, it cleans the game before applying new mods, providing a stable platform for further modding.
 
-HF Patch does not contain the full game, paid expansions or any other pirated content. You have to buy the game and expansions separately. You can buy the game [on DLsite](https://www.dlsite.com/pro/work/=/product_id/VJ015465.html) or [on DMM](https://dlsoft.dmm.co.jp/detail/illusion_0039/).
+HF Patch does not contain the full game, paid expansions or any other pirated content. You have to buy the game and expansions separately. You can buy the game [on DLsite](https://www.dlsite.com/pro/work/=/product_id/VJ015465.html) ([buy and download guide](https://youtu.be/gXhEcizjOLg)) or [on DMM](https://dlsoft.dmm.co.jp/detail/illusion_0039/) ([buy and download guide](https://youtu.be/SJ9OXedO3qI)).
 
 You can support development of HF Patch and many of the included plugins through my Patreon page: https://www.patreon.com/ManlyMarco
 
@@ -23,7 +24,7 @@ Check the [Releases](https://github.com/ManlyMarco/RG-HF_Patch/releases) page fo
 You can see a list of all included plugins and links to their websites and authors [here](https://github.com/ManlyMarco/RG-HF_Patch/blob/master/Plugin%20Readme.md). You can see what content mods are included after installing the patch by running KKManager (installed to the game directory) and navigating to the zipmods tab.
 
 ## Discussion and help
-If you need any help, [check the wiki](https://wiki.anime-sharing.com/hgames/index.php?title=Room_Girl) or visit the [Illusion Soft discord server](https://discord.gg/illusionsoft) and ask in the #hs2-help channel. Asking in the #hs2-help channel instead of other places is the fastest way to get help, you can even search it for your issue to see if someone already answered it. There are also chat and card sharing channels on the server!
+If you need any help, [check the wiki](https://wiki.anime-sharing.com/hgames/index.php?title=Room_Girl) or visit the [Illusion Soft discord server](https://discord.gg/illusionsoft) and ask in the #rg-help channel. Asking in the #rg-help channel instead of other places is the fastest way to get help, you can even search it for your issue to see if someone already answered it. There are also chat and card sharing channels on the server!
 
 ## Important notes, please read
 - HF Patch does not contain the full game, paid expansions or any other pirated content. The full game needs to be already installed for the patch to work.
