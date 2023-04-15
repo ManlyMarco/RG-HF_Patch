@@ -7,7 +7,7 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "RoomGirl"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "1.0"
+#define VERSION "1.1"
 ;-----------------------------------------Sideloader modpack directory
 ;#define ModsDir "E:\HFpatchmaking\HS\HSDX\mods"
 ;#define ModsDir "F:\Games\KoikatsuP\mods"

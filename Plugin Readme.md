@@ -1,3 +1,8 @@
+# ActionPatches MMF Enhancement v1.0.2
+- Short description: Unlock/add restricted or missing character actions including MMF. Can cause bugs!
+- Author(s):         https://github.com/hawkeye-e and https://github.com/bogus-things
+- More information:  https://github.com/bogus-things/RG_ActionPatches
+
 # BepInEx_UnityIL2CPP_x64 v6.0.0.0
 - Short description: Plugin framework
 - Author(s):         https://github.com/BepInEx
@@ -23,6 +28,11 @@
 - Author(s):         https://github.com/SpockBauru
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
+# ExtendedSave v0.0.2
+- Short description: (limited) Implementation of the ExtendedSave/ExtensibleSaveFormat plugin
+- Author(s):         bogus
+- More information:  https://github.com/bogus-things/RG_ExtendedSave
+
 # Full Save
 - Short description: Unlock FreeH, all maps and all H positions. Doesn't overwrite game saves
 - Author(s):         bytemask
@@ -33,7 +43,7 @@
 - Author(s):         https://github.com/SpockBauru
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
-# Gravure plugin v0.1
+# Gravure plugin v1.0
 - Short description: More posing options in character maker, press G
 - Author(s):         Mikke
 - More information:  IS Discord server
@@ -43,27 +53,27 @@
 - Author(s):         https://github.com/kkykkykky
 - More information:  https://github.com/kkykkykky/HairMeshforAll
 
-# Hardmod Modpack up to 05/01/2023
+# Hardmod Modpack up to 15/04/2023
 - Short description: Some new clothes for maker and animations for studio
 - Author(s):         cur144, abugroza
 - More information:  IS Discord server
 
-# HSceneCrowdReaction v0.1
+# HSceneCrowdReaction v0.5.3
 - Short description: Give characters different reactions when seeing a H scene instead of only being awkward
 - Author(s):         https://github.com/hawkeye-e
 - More information:  https://github.com/hawkeye-e/RG_HSceneCrowdReaction
 
-# IllusionFixes_IL2CPP v20.2
+# IllusionFixes_IL2CPP v21.0.1
 - Short description: A collection of essential fixes and improvements
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionFixes
 
-# IllusionLaunchers_RoomGirl v3.3.2.0
+# IllusionLaunchers_RoomGirl v3.4.0.38362
 - Short description: Custom game launcher
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionLaunchers
 
-# KKManager v0.20.2.0
+# KKManager v0.22.0.0
 - Short description: Manage and update mods, browse cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
@@ -78,6 +88,11 @@
 - Author(s):         https://github.com/kkykkykky
 - More information:  https://github.com/kkykkykky/MakerScreenShot
 
+# MaterialMod v0.1.4
+- Short description: An "Material Editor" made from zero for Room Girl
+- Author(s):         SpockBauru
+- More information:  https://github.com/SpockBauru/SpockPlugins_Illusion/releases
+
 # Message Center v0.7
 - Short description: Allows plugins to show messages in top left corner of the game
 - Author(s):         https://github.com/SpockBauru
@@ -88,20 +103,15 @@
 - Author(s):         https://github.com/SpockBauru
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
+# PovX v0.0.3
+- Short description: Adds first-person view in H scenes, check hotkeys in plugin settings (F5)
+- Author(s):         https://github.com/bogus-things
+- More information:  https://github.com/bogus-things/RG_PovX
+
 # RG Cheats v1.0
 - Short description: Simple trainer for Room Girl, appears next to character portrait
 - Author(s):         https://github.com/SpockBauru/SpockPlugins_Illusion
 - More information:  https://github.com/SpockBauru/SpockPlugins_Illusion/releases
-
-# RG_ActionPatches MMF Enhancement v0.2.0
-- Short description: Unlock/add restricted or missing character actions including MMF. Can cause bugs!
-- Author(s):         https://github.com/hawkeye-e and https://github.com/bogus-things
-- More information:  https://github.com/hawkeye-e/RG_ActionPatchesEnhance
-
-# RG_PovX v0.0.2
-- Short description: Adds first-person view in H scenes, check hotkeys in plugin settings (F5)
-- Author(s):         https://github.com/bogus-things
-- More information:  https://github.com/bogus-things/RG_PovX
 
 # Roomgirl_Uncensor v1.1
 - Short description: A simple female, male and futa uncensor. Color can be changed with the 'UNC1' Paint decal in character maker.
@@ -123,6 +133,11 @@
 - Author(s):         https://github.com/kkykkykky
 - More information:  https://github.com/kkykkykky/ScreenshotX
 
+# Subtitles v0.1
+- Short description: Show subtitles for girl's voice in H-Scenes
+- Author(s):         SpockBauru
+- More information:  https://github.com/SpockBauru/SpockPlugins_Illusion/releases
+
 # UnityExplorer v4.9.0
 - Short description: Developer tool and universal trainer, press F7 to open
 - Author(s):         https://github.com/sinai-dev
@@ -133,7 +148,7 @@
 - Author(s):         https://github.com/sinai-dev
 - More information:  https://github.com/sinai-dev/UniverseLib
 
-# Workaholics v0.1.0
+# Workaholics v1.0.0
 - Short description: Force male characters to load in at their workplaces after time changes
 - Author(s):         https://github.com/bogus-things
 - More information:  https://github.com/bogus-things/RG_Workaholics
