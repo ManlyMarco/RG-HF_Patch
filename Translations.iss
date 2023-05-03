@@ -13,6 +13,8 @@ MsgMissingGameFiles=ERROR - Critical game files are missing, make sure this is t
 MsgExtractedZipmod=WARNING - Most likely a sideloader mod was extracted inside the game directory. Some game files might now be corrupted.%n%nRepair will be attempted, but if you still have problems you will have to reinstall the game.
 MsgEmotionCreatorsDetected=ERROR - EmotionCreators files have been detected! If you installed EmotionCreators to the same folder as Koikatsu, you have broken Koikatsu game files. To fix this you will need to reinstall both games to separate directories!
 
+MsgMissingDLC1=NOTICE - You are missing the optional "Paradise" expansion (04/27 2023 Paid DLC). It adds 2 new jobs, each with 2 new voices; 3 new maps; new H positions including 4-some and new special locations; and new clothes, hairstyles and accessories.%n%nThis expansion is optional, the patch will work fine without it. If you want to use it, install it BEFORE running HF Patch.
+
 RunGame=&Run RoomGirl
 RunWiki=Open RoomGirl wiki (FAQ, English manual)
 RunDiscord=Join Illusion Soft Discord server (Help, updates, sharing)
@@ -52,6 +54,8 @@ jp.MsgExeNotFound=警告 - RoomGirlが選択されたディレクトリに見つ
 jp.MsgMissingGameFiles=エラー - 重要なゲームファイルがありません。これがゲームディレクトリであることを確認してください。 ディレクトリが正しい場合は、ゲームを再インストールする必要があります。
 jp.MsgExtractedZipmod=警告 - Sideloader modがゲームディレクトリ内に抽出されたようです。 一部のゲームファイルが破損している可能性があります。%n%n修復を試みますが、それでも問題が解決しない場合は、ゲームを再インストールする必要があります。
 jp.MsgEmotionCreatorsDetected=エラー - 「エモーション・クリエイター」を「コイカツ」と同じフォルダにインストールした場合は、「コイカツ」ゲームファイルが壊れています。修正するには、両方のゲームを別々のディレクトリに再インストールする必要があります。
+
+jp.MsgMissingDLC1=注意 - 「Roomガール PARADISE」(2023-04-27)のオプションのアップデートが欠けています。%n%n使用したい場合は、HF Patchを実行する前にインストールしてください。
 
 jp.RunGame=ゲームを始める
 jp.RunWiki=オープン英語RoomGirlのwiki（FAQ、マニュアル）

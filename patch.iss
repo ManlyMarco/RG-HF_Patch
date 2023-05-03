@@ -92,8 +92,12 @@ Source: "Input\_Patch\empty_ud\*";        DestDir: "{app}"; Flags: ignoreversion
 Source: "Input\_Patch\empty_ud_eng\*";    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Languages: en
 Source: "Input\_Patch\2_orig\*";          DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
 Source: "Input\_Patch\2022-10-13-studio\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;      Components: Patch
-Source: "Input\_Patch\2022-12-16-all\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;      Components: Patch
-Source: "Input\_Patch\2022-12-16-unhollowed\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;      Components: BepInEx
+Source: "Input\_Patch\2023-02-10-all\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;      Components: Patch
+
+Source: "Input\_Patch\2023-04-28-pd\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;      Components: Patch; Check: ParadiseInstalled
+
+;Source: "Input\_Patch\2022-02-10-unhollowed\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;      Components: BepInEx
+
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; Solidbreak at the start to split off the modpacks from other files in case they don't have to be installed. solidbreak splits before the files entry with it is processed
 ;#ifndef LITE
@@ -287,6 +291,11 @@ external 'RemoveSideloaderDuplicates@files:HelperLib.dll stdcall';
 procedure RemoveModsExceptModpacks(path: String);
 external 'RemoveModsExceptModpacks@files:HelperLib.dll stdcall';
 
+function ParadiseInstalled(): Boolean;
+begin
+  Result := FileExists(ExpandConstant('{app}\abdata\add030_00'));
+end;
+
 function GetDefaultDirName(Param: string): string;
 var
   str: WideString;
@@ -441,6 +450,14 @@ begin
       begin
         MsgBox(ExpandConstant('{cm:MsgMissingGameFiles}'), mbError, MB_OK);
         Result := False;
+      end
+      else
+      begin
+        // Check for missing paid DLC
+        if not ParadiseInstalled() then
+        begin
+          SuppressibleMsgBox(ExpandConstant('{cm:MsgMissingDLC1}'), mbInformation, MB_OK, 0);
+        end;
       end;
     end;
 
