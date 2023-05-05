@@ -21,7 +21,7 @@ Name: "UNC\Roomgirl_Uncensor";                 Description: "Roomgirl_Uncensor v
 Name: "Content";                               Description: "Additional content (Needed to properly load most character cards and scenes)"         ; Types: full_en full extra extra_en
 Name: "Content\HairMeshforAll";                Description: "HairMeshforAll v1.1.0 (Unlock mesh customization options for all hair)"               ; Types: full_en full extra extra_en
 Name: "Content\Hardmod_modpack";               Description: "Hardmod Modpack up to {#CurrentDate} (Some new clothes for maker and animations for studio)"; Types: full_en full extra extra_en
-Name: "Content\RG_ExtendedSave";               Description: "ExtendedSave v0.0.2 ((limited) Implementation of the ExtendedSave/ExtensibleSaveFormat plugin)"    ; Types: extra extra_en
+Name: "Content\RG_ExtendedSave";               Description: "ExtendedSave v0.0.2 ((limited) Implementation of the ExtendedSave/ExtensibleSaveFormat plugin)"; Types: extra extra_en
 Name: "Content\Studio_pose_pack";              Description: "Studio pose pack (A large collection of poses, use in Studio through the anim/Kinematics/Pose menu)"; Types: extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "FIX";                                   Description: "{cm:CompFIX}"                                                                         ; Types: extra extra_en
@@ -46,7 +46,7 @@ Name: "Feature\HSceneCrowdReaction";           Description: "HSceneCrowdReaction
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "MISC";                                  Description: "{cm:CompMISC}"                                                                        
 Name: "MISC\FullSave";                         Description: "Full Save (Unlock FreeH, all maps and all H positions. Doesn't overwrite game saves)" 
-Name: "MISC\RG_Cheats";                        Description: "RG Cheats v1.0 (Simple trainer for Room Girl, appears next to character portrait)"    ; Types: extra extra_en
+Name: "MISC\RG_Cheats";                        Description: "RG Cheats v1.1 (Simple trainer for Room Girl, appears next to character portrait)"    ; Types: extra extra_en
 Name: "MISC\UnityExplorer";                    Description: "UnityExplorer v4.9.0 (Developer tool and universal trainer, press F7 to open)"        ; Types: extra extra_en
 
 [Files]

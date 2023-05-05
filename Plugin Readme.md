@@ -53,7 +53,7 @@
 - Author(s):         https://github.com/kkykkykky
 - More information:  https://github.com/kkykkykky/HairMeshforAll
 
-# Hardmod Modpack up to 15/04/2023
+# Hardmod Modpack up to 05/05/2023
 - Short description: Some new clothes for maker and animations for studio
 - Author(s):         cur144, abugroza
 - More information:  IS Discord server
@@ -89,7 +89,7 @@
 - More information:  https://github.com/kkykkykky/MakerScreenShot
 
 # MaterialMod v0.1.4
-- Short description: An "Material Editor" made from zero for Room Girl
+- Short description: An (Material Editor) made from zero for Room Girl
 - Author(s):         SpockBauru
 - More information:  https://github.com/SpockBauru/SpockPlugins_Illusion/releases
 
@@ -108,7 +108,7 @@
 - Author(s):         https://github.com/bogus-things
 - More information:  https://github.com/bogus-things/RG_PovX
 
-# RG Cheats v1.0
+# RG Cheats v1.1
 - Short description: Simple trainer for Room Girl, appears next to character portrait
 - Author(s):         https://github.com/SpockBauru/SpockPlugins_Illusion
 - More information:  https://github.com/SpockBauru/SpockPlugins_Illusion/releases
