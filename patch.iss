@@ -82,21 +82,22 @@ Name: "Patch";                    Description: "All free updates with Studio + c
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [Files]
-Source: "HelperLib.dll";                  DestDir: "{app}"                       ; Flags: dontcopy
-Source: "Input\start.bat";                DestDir: "{tmp}\hfp"                   ; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "HelperLib.dll";                  DestDir: "{app}";                       Flags: dontcopy
+Source: "Input\start.bat";                DestDir: "{tmp}\hfp";                   Flags: ignoreversion recursesubdirs createallsubdirs
 #ifndef DEBUG
-Source: "Input\DirectX\Jun2010\*";        DestDir: "{tmp}\hfp\DirectXRedist2010" ; Flags: ignoreversion recursesubdirs createallsubdirs deleteafterinstall; Check: DirectXRedistNeedsInstall
+Source: "Input\DirectX\Jun2010\*";        DestDir: "{tmp}\hfp\DirectXRedist2010"; Flags: ignoreversion recursesubdirs createallsubdirs deleteafterinstall; Check: DirectXRedistNeedsInstall
 Source: "Plugin Readme.md";               DestDir: "{app}"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Source: "Input\_Patch\empty_ud\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: Patch
-Source: "Input\_Patch\empty_ud_eng\*";    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Languages: en
-Source: "Input\_Patch\2_orig\*";          DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
-Source: "Input\_Patch\2022-10-13-studio\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;      Components: Patch
-Source: "Input\_Patch\2023-02-10-all\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;      Components: Patch
+Source: "Input\_Patch\empty_ud\*";                 DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: Patch
+Source: "Input\_Patch\empty_ud_eng\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Languages: en
+Source: "Input\_Patch\2_orig\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
+Source: "Input\_Patch\2022-10-13-studio\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
+Source: "Input\_Patch\2023-02-10-all\*";           DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
 
-Source: "Input\_Patch\2023-04-28-pd\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;      Components: Patch; Check: ParadiseInstalled
+Source: "Input\_Patch\2023-05-26-pd\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: ParadiseInstalled
 
-;Source: "Input\_Patch\2022-02-10-unhollowed\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;      Components: BepInEx
+Source: "Input\_Patch\2023-02-10-unhollowed\*";    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: BepInEx; Check: not ParadiseInstalled
+Source: "Input\_Patch\2023-05-26-pd-unhollowed\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: BepInEx; Check: ParadiseInstalled
 
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; Solidbreak at the start to split off the modpacks from other files in case they don't have to be installed. solidbreak splits before the files entry with it is processed
