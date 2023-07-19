@@ -29,9 +29,11 @@ Here's a video guide that might be useful. The guide is mostly universal between
 ### Text guide
 1. Install Room Girl to a directory with no Japanese characters in its path (e.g. D:\Games\RG)
 2. Download the latest HF Patch release from [Releases](https://github.com/ManlyMarco/RG-HF_Patch/releases/latest). You should get a single .exe file along with a few .bin files. You can place these files anywhere you want (except the folder where the game is located), but they HAVE to be in the same folder together. DO NOT download any .zip files from GitHub - they contain source code for the patch, not the patch itself.
+   - During the installation the patch may appear stuck, unless you get an error wait for it to finish.
 4. Install the latest HF Patch by running the .exe and following the wizard. The default settings should work well for most users.
 5. Done! You can now start the game launcher as usual and you will notice some new options straight away. You can remove the downloaded patcher files now if you want to save some space.
 Special patch is included in HF Patch, you don't have to install it manually. It won't hurt anything if you have it installed already, the patch will figure itself out. Just to be safe you can verify game files in Steam before installing the HF Patch if you messed with your installation folder before doing this.
+   - Keep in mind that the first launch of the game after patching could take a couple minutes on slower systems and the game window might not appear immediately.
 6. (Optional) You can update the modpacks by clicking the update button within the launcher. You can leave out Sideloader Modpack - Studio if you don't plan on using studio.
 
 *Note: If you want to run the game under Wine/Proton (Linux, SteamOS, macOS, etc.), read [this](https://github.com/Mantas-2155X/illusion-wine-guide) and [this](https://docs.bepinex.dev/articles/advanced/proton_wine.html).*
