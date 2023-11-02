@@ -3,12 +3,13 @@ Name: "BepInEx";                               Description: "BepInEx_UnityIL2CPP
 Name: "BepInEx\ConfigurationManager";          Description: "BepInExConfigManager v1.3.0 (Can change plugin settings. Press F5 to open)"           ; Types: full_en full extra extra_en custom bare; Flags: fixed
 Name: "BepInEx\MessageCenter";                 Description: "Message Center v0.7 (Allows plugins to show messages in top left corner of the game)" ; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Name: "IllusionLaunchers";                     Description: "IllusionLaunchers_RoomGirl v3.4.0.38362 (Custom game launcher)"                       ; Types: full_en full extra extra_en custom
-Name: "KKManager";                             Description: "KKManager v0.22.0.1 (Manage and update mods, browse cards)"                           ; Types: full_en full extra extra_en custom bare
+Name: "IllusionLaunchers";                     Description: "IllusionLaunchers_RoomGirl v3.4.1.36434 (Custom game launcher)"                       ; Types: full_en full extra extra_en custom
+Name: "KKManager";                             Description: "KKManager v0.23.0.0 (Manage and update mods, browse cards)"                           ; Types: full_en full extra extra_en custom bare
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "API";                                   Description: "APIs (Plugins required by other plugins and mods to function)"                        ; Types: full_en full extra extra_en custom bare; Flags: fixed
-Name: "API\XUnityResourceRedirector";          Description: "XUnity Resource Redirector v2.0.0 (Modding API for overriding game resources)"        ; Types: full_en full extra extra_en custom bare; Flags: fixed
+Name: "API\XUnityResourceRedirector";          Description: "XUnity Resource Redirector v2.1.0 (Modding API for overriding game resources)"        ; Types: full_en full extra extra_en custom bare; Flags: fixed
 Name: "API\UniverseLib";                       Description: "UniverseLib.Il2Cpp.Unhollower v1.5.1 (Library for making plugins for IL2CPP and Mono Unity games, with focus on UI)"; Types: full_en full extra extra_en custom bare; Flags: fixed
+Name: "API\BepisPlugins";                      Description: "BepisPlugins v19.1 (Collection of essential plugins)"                                 ; Types: full_en full extra_en extra custom bare
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "AT";                                    Description: "XUnity Auto Translator v5.2.0 (Translation loader)"                                   ; Types: full extra full_en extra_en custom
 Name: "AT\TL";                                 Description: "{cm:CompTL}"                                                                          ; Types: full_en extra_en
@@ -20,12 +21,10 @@ Name: "UNC\Roomgirl_Uncensor";                 Description: "Roomgirl_Uncensor v
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "Content";                               Description: "Additional content (Needed to properly load most character cards and scenes)"         ; Types: full_en full extra extra_en
 Name: "Content\HairMeshforAll";                Description: "HairMeshforAll v1.1.0 (Unlock mesh customization options for all hair)"               ; Types: full_en full extra extra_en
-Name: "Content\Hardmod_modpack";               Description: "Hardmod Modpack up to {#CurrentDate} (Some new clothes for maker and animations for studio)"; Types: full_en full extra extra_en
-Name: "Content\RG_ExtendedSave";               Description: "ExtendedSave v0.0.2 ((limited) Implementation of the ExtendedSave/ExtensibleSaveFormat plugin)"; Types: extra extra_en
 Name: "Content\Studio_pose_pack";              Description: "Studio pose pack (A large collection of poses, use in Studio through the anim/Kinematics/Pose menu)"; Types: extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "FIX";                                   Description: "{cm:CompFIX}"                                                                         ; Types: extra extra_en
-Name: "FIX\IllusionFixes";                     Description: "IllusionFixes_IL2CPP v21.0.1 (A collection of essential fixes and improvements)"      ; Types: full_en full extra extra_en
+Name: "FIX\IllusionFixes";                     Description: "IllusionFixes_IL2CPP v21.2.1 (A collection of essential fixes and improvements)"      ; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "Feature";                               Description: "Improvements and additional features"                                                 
 Name: "Feature\MakerScreenShot";               Description: "Maker Screenshot v1.0.0 (Allows taking screenshots in character creator (press F11))" ; Types: full_en full extra extra_en
@@ -39,17 +38,18 @@ Name: "Feature\MuteInBackground";              Description: "Mute In Background 
 Name: "Feature\EnableResize";                  Description: "Enable Resize v0.7 (Enable resizing of game window)"                                  ; Types: full_en full extra extra_en
 Name: "Feature\EnableFullScreenToggle";        Description: "Enable Full Screen Toggle v0.7 (Allow toggling full screen with Alt+Enter)"           ; Types: full_en full extra extra_en
 Name: "Feature\StudioCharaSort";               Description: "StudioCharaSort v1.1.0 (Change default sorting of character and coordinate cards in studio)"; Types: full_en full extra extra_en
-Name: "Feature\RG_UnrestrictedHScene";         Description: "UnrestrictedHScene v0.1.1 (Unlock the map limitation setting for all positions that were added in expansion)"; Types: full_en full extra extra_en
-Name: "Feature\RG_MaterialMod";                Description: "MaterialMod v0.1.4 (An (Material Editor) made from zero for Room Girl)"               ; Types: extra extra_en
-Name: "Feature\RG_MovementControl";            Description: "MovementControl v0.1.0 (A simple tool to force the characters to stay on their existing positions)";
+Name: "Feature\RG_UnrestrictedHScene";         Description: "UnrestrictedHScene v0.1.1 (Enables positions added in PD expansion on all maps)"      ; Types: full_en full extra extra_en
+Name: "Feature\RG_MaterialMod";                Description: "MaterialMod v0.2.0 (An (Material Editor) made from zero for Room Girl)"               ; Types: extra extra_en
+Name: "Feature\DragAndDrop";                   Description: "Drag and Drop v1.2.7 (Drag cards and scenes from explorer into game window)"          ; Types: extra_en extra
+Name: "Feature\RG_MovementControl";            Description: "MovementControl v0.1.0 (A simple tool to force the characters to stay on their existing positions)"
 Name: "Feature\Workaholics";                   Description: "Workaholics v1.0.1 (Force male characters to load in at their workplaces after time changes)"
-Name: "Feature\RG_ActionPatchesEnhance";       Description: "ActionPatches MMF Enhancement v1.0.2 (Unlock/add restricted or missing character actions including MMF. Can cause bugs!)"
+Name: "Feature\RG_ActionPatchesEnhance";       Description: "ActionPatches MMF Enhancement v2.0.0 (Unlock/add restricted or missing character actions including MMF. Can cause bugs!)"
 Name: "Feature\HSceneCrowdReaction";           Description: "HSceneCrowdReaction v1.0.0 (Give characters different reactions when seeing a H scene instead of only being awkward)"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "MISC";                                  Description: "{cm:CompMISC}"                                                                        
-Name: "MISC\FullSave";                         Description: "Full Save (Unlock FreeH, all maps and all H positions. Doesn't overwrite game saves)" 
 Name: "MISC\RG_Cheats";                        Description: "RG Cheats v1.1 (Simple trainer for Room Girl, appears next to character portrait)"    ; Types: extra extra_en
 Name: "MISC\UnityExplorer";                    Description: "UnityExplorer v4.9.0 (Developer tool and universal trainer, press F7 to open)"        ; Types: extra extra_en
+Name: "MISC\FullSave";                         Description: "Full Save (Unlock FreeH, all maps and all H positions. Doesn't overwrite game saves)" 
 
 [Files]
 #ifndef DEBUG
@@ -65,6 +65,7 @@ Source: "Input\_Plugins\_out\FullSave\*";                   DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\RG_Cheats\*";                  DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: MISC\RG_Cheats; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\UniverseLib.Il2Cpp.Unhollower\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: API\UniverseLib; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\XUnity.ResourceRedirector-BepInEx-IL2CPP\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: API\XUnityResourceRedirector; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\RG_BepisPlugins\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: API\BepisPlugins; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\XUnity.AutoTranslator-BepInEx-IL2CPP\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: AT; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\RG_Subtitles\*";               DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: AT\TL\Subtitles; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\EnableFullScreenToggleIL2CPP_netFm\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\EnableFullScreenToggle; Excludes: "manifest.xml"
@@ -83,13 +84,12 @@ Source: "Input\_Plugins\_out\KKManager\*";                  DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\IllusionLaunchers_RoomGirl\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: IllusionLaunchers; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\IllusionFixes_IL2CPP\*";       DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: FIX\IllusionFixes; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\RG_HairMeshforAll\*";          DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\HairMeshforAll; Excludes: "manifest.xml"
-Source: "Input\_Plugins\_out\Hardmod_modpack\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmod_modpack; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\Studio_pose_pack\*";           DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Studio_pose_pack; Excludes: "manifest.xml"
-Source: "Input\_Plugins\_out\RG_ExtendedSave\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\RG_ExtendedSave; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\RG_ActionPatches\*";           DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\RG_ActionPatchesEnhance; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\RG_Workaholics\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\Workaholics; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\RG_MaterialMod\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\RG_MaterialMod; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\RG_MovementControl\*";         DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\RG_MovementControl; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\RG_DragAndDrop\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\DragAndDrop; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\Roomgirl_Uncensor\*";          DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\Roomgirl_Uncensor; Excludes: "manifest.xml"
 
 [Code]

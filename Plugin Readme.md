@@ -1,4 +1,4 @@
-# ActionPatches MMF Enhancement v1.0.2
+# ActionPatches MMF Enhancement v2.0.0
 - Short description: Unlock/add restricted or missing character actions including MMF. Can cause bugs!
 - Author(s):         https://github.com/hawkeye-e and https://github.com/bogus-things
 - More information:  https://github.com/bogus-things/RG_ActionPatches
@@ -13,10 +13,20 @@
 - Author(s):         https://github.com/sinai-dev
 - More information:  https://github.com/sinai-dev/BepInExConfigManager
 
+# BepisPlugins v19.1
+- Short description: Collection of essential plugins
+- Author(s):         bbepis
+- More information:  https://github.com/bbepis/BepisPlugins
+
 # ColorPanelX v1.4.3
 - Short description: Improves maker color picker
 - Author(s):         https://github.com/kkykkykky
 - More information:  https://github.com/kkykkykky
+
+# Drag and Drop v1.2.7
+- Short description: Drag cards and scenes from explorer into game window
+- Author(s):         IllusionMods
+- More information:  https://yuki-portal.com/uploader/honeyselect2/mod/システムパッチ-プラグイン/194386/
 
 # Enable Full Screen Toggle v0.7
 - Short description: Allow toggling full screen with Alt+Enter
@@ -27,11 +37,6 @@
 - Short description: Enable resizing of game window
 - Author(s):         https://github.com/SpockBauru
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
-
-# ExtendedSave v0.0.2
-- Short description: (limited) Implementation of the ExtendedSave/ExtensibleSaveFormat plugin
-- Author(s):         bogus
-- More information:  https://github.com/bogus-things/RG_ExtendedSave
 
 # Full Save
 - Short description: Unlock FreeH, all maps and all H positions. Doesn't overwrite game saves
@@ -53,27 +58,22 @@
 - Author(s):         https://github.com/kkykkykky
 - More information:  https://github.com/kkykkykky/HairMeshforAll
 
-# Hardmod Modpack up to 05/05/2023
-- Short description: Some new clothes for maker and animations for studio
-- Author(s):         cur144, abugroza
-- More information:  IS Discord server
-
-# HSceneCrowdReaction v0.5.3
+# HSceneCrowdReaction v1.0.0
 - Short description: Give characters different reactions when seeing a H scene instead of only being awkward
 - Author(s):         https://github.com/hawkeye-e
 - More information:  https://github.com/hawkeye-e/RG_HSceneCrowdReaction
 
-# IllusionFixes_IL2CPP v21.0.1
+# IllusionFixes_IL2CPP v21.2.1
 - Short description: A collection of essential fixes and improvements
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionFixes
 
-# IllusionLaunchers_RoomGirl v3.4.0.38362
+# IllusionLaunchers_RoomGirl v3.4.1.36434
 - Short description: Custom game launcher
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionLaunchers
 
-# KKManager v0.22.0.0
+# KKManager v0.23.0.0
 - Short description: Manage and update mods, browse cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
@@ -88,7 +88,7 @@
 - Author(s):         https://github.com/kkykkykky
 - More information:  https://github.com/kkykkykky/MakerScreenShot
 
-# MaterialMod v0.1.4
+# MaterialMod v0.2.0
 - Short description: An (Material Editor) made from zero for Room Girl
 - Author(s):         SpockBauru
 - More information:  https://github.com/SpockBauru/SpockPlugins_Illusion/releases
@@ -97,6 +97,11 @@
 - Short description: Allows plugins to show messages in top left corner of the game
 - Author(s):         https://github.com/SpockBauru
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
+
+# MovementControl v0.1.0
+- Short description: A simple tool to force the characters to stay on their existing positions
+- Author(s):         HP
+- More information:  https://github.com/hawkeye-e/RG_MovementControl
 
 # Mute In Background v0.7
 - Short description: Mute the game when it's not in focus, turn on in plugin settings
@@ -148,7 +153,12 @@
 - Author(s):         https://github.com/sinai-dev
 - More information:  https://github.com/sinai-dev/UniverseLib
 
-# Workaholics v1.0.0
+# UnrestrictedHScene v0.1.1
+- Short description: Enables positions added in PD expansion on all maps
+- Author(s):         HP
+- More information:  https://github.com/hawkeye-e/RG_UnrestrictedHScene
+
+# Workaholics v1.0.1
 - Short description: Force male characters to load in at their workplaces after time changes
 - Author(s):         https://github.com/bogus-things
 - More information:  https://github.com/bogus-things/RG_Workaholics
@@ -158,7 +168,7 @@
 - Author(s):         https://github.com/bbepis
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator
 
-# XUnity Resource Redirector v2.0.0
+# XUnity Resource Redirector v2.1.0
 - Short description: Modding API for overriding game resources
 - Author(s):         https://github.com/bbepis
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator
