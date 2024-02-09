@@ -8,8 +8,8 @@
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx
 
-# BepInExConfigManager v1.3.0
-- Short description: Can change plugin settings. Press F5 to open
+# BepInExConfigManager v18.0
+- Short description: Can change plugin settings. Press F1 to open
 - Author(s):         https://github.com/sinai-dev
 - More information:  https://github.com/sinai-dev/BepInExConfigManager
 
@@ -73,7 +73,7 @@
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionLaunchers
 
-# KKManager v0.23.0.0
+# KKManager v1.0.0.0
 - Short description: Manage and update mods, browse cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
@@ -117,6 +117,16 @@
 - Short description: Simple trainer for Room Girl, appears next to character portrait
 - Author(s):         https://github.com/SpockBauru/SpockPlugins_Illusion
 - More information:  https://github.com/SpockBauru/SpockPlugins_Illusion/releases
+
+# RG.HideAllUI v2.3.2
+- Short description: Hides all UI(hotkey:Space)
+- Author(s):         ???
+- More information:  https://yuki-portal.com/uploader/honeyselect2/mod/システムパッチ-プラグイン/194251/
+
+# RG.HideMakerDust v1.0.0
+- Short description: Removes dust from chara maker(LeftCTRL+Space)
+- Author(s):         ???
+- More information:  https://yuki-portal.com/uploader/honeyselect2/mod/システムパッチ-プラグイン/194253/
 
 # Roomgirl_Uncensor v1.1
 - Short description: A simple female, male and futa uncensor. Color can be changed with the 'UNC1' Paint decal in character maker.
@@ -168,7 +178,7 @@
 - Author(s):         https://github.com/bbepis
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator
 
-# XUnity Resource Redirector v2.1.0
+# XUnity Resource Redirector v2.0.0
 - Short description: Modding API for overriding game resources
 - Author(s):         https://github.com/bbepis
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator

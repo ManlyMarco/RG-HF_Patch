@@ -1,13 +1,13 @@
 [Components]
 Name: "BepInEx";                               Description: "BepInEx_UnityIL2CPP_x64 v6.0.0.0 (Plugin framework)"                                  ; Types: full_en full extra_en extra custom bare; Flags: fixed
-Name: "BepInEx\ConfigurationManager";          Description: "BepInExConfigManager v1.3.0 (Can change plugin settings. Press F5 to open)"           ; Types: full_en full extra extra_en custom bare; Flags: fixed
+Name: "BepInEx\ConfigurationManager";          Description: "BepInExConfigManager v18.0 (Can change plugin settings. Press F1 to open)"            ; Types: full_en full extra extra_en custom bare; Flags: fixed
 Name: "BepInEx\MessageCenter";                 Description: "Message Center v0.7 (Allows plugins to show messages in top left corner of the game)" ; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "IllusionLaunchers";                     Description: "IllusionLaunchers_RoomGirl v3.4.1.36434 (Custom game launcher)"                       ; Types: full_en full extra extra_en custom
-Name: "KKManager";                             Description: "KKManager v0.23.0.0 (Manage and update mods, browse cards)"                           ; Types: full_en full extra extra_en custom bare
+Name: "KKManager";                             Description: "KKManager v1.0.0.0 (Manage and update mods, browse cards)"                            ; Types: full_en full extra extra_en custom bare
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "API";                                   Description: "APIs (Plugins required by other plugins and mods to function)"                        ; Types: full_en full extra extra_en custom bare; Flags: fixed
-Name: "API\XUnityResourceRedirector";          Description: "XUnity Resource Redirector v2.1.0 (Modding API for overriding game resources)"        ; Types: full_en full extra extra_en custom bare; Flags: fixed
+Name: "API\XUnityResourceRedirector";          Description: "XUnity Resource Redirector v2.0.0 (Modding API for overriding game resources)"        ; Types: full_en full extra extra_en custom bare; Flags: fixed
 Name: "API\UniverseLib";                       Description: "UniverseLib.Il2Cpp.Unhollower v1.5.1 (Library for making plugins for IL2CPP and Mono Unity games, with focus on UI)"; Types: full_en full extra extra_en custom bare; Flags: fixed
 Name: "API\BepisPlugins";                      Description: "BepisPlugins v19.1 (Collection of essential plugins)"                                 ; Types: full_en full extra_en extra custom bare
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -41,6 +41,8 @@ Name: "Feature\StudioCharaSort";               Description: "StudioCharaSort v1.
 Name: "Feature\RG_UnrestrictedHScene";         Description: "UnrestrictedHScene v0.1.1 (Enables positions added in PD expansion on all maps)"      ; Types: full_en full extra extra_en
 Name: "Feature\RG_MaterialMod";                Description: "MaterialMod v0.2.0 (An (Material Editor) made from zero for Room Girl)"               ; Types: extra extra_en
 Name: "Feature\DragAndDrop";                   Description: "Drag and Drop v1.2.7 (Drag cards and scenes from explorer into game window)"          ; Types: extra_en extra
+Name: "Feature\RG_HideMakerDust";              Description: "RG.HideMakerDust v1.0.0 (Removes dust from chara maker(LeftCTRL+Space))"              ; Types: extra extra_en
+Name: "Feature\RG_HideAllUI";                  Description: "RG.HideAllUI v2.3.2 (Hides all UI(hotkey:Space))"                                     ; Types: extra extra_en
 Name: "Feature\RG_MovementControl";            Description: "MovementControl v0.1.0 (A simple tool to force the characters to stay on their existing positions)"
 Name: "Feature\Workaholics";                   Description: "Workaholics v1.0.1 (Force male characters to load in at their workplaces after time changes)"
 Name: "Feature\RG_ActionPatchesEnhance";       Description: "ActionPatches MMF Enhancement v2.0.0 (Unlock/add restricted or missing character actions including MMF. Can cause bugs!)"
@@ -90,6 +92,8 @@ Source: "Input\_Plugins\_out\RG_Workaholics\*";             DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\RG_MaterialMod\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\RG_MaterialMod; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\RG_MovementControl\*";         DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\RG_MovementControl; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\RG_DragAndDrop\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\DragAndDrop; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\RG.HideAllUI\*";               DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\RG_HideAllUI; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\RG.HideMakerDust\*";           DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\RG_HideMakerDust; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\Roomgirl_Uncensor\*";          DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\Roomgirl_Uncensor; Excludes: "manifest.xml"
 
 [Code]
